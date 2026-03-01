@@ -1,0 +1,14 @@
+[Unit]
+Description=VeritasBot
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/opt/veritas
+ExecStart=/opt/veritas/env/bin/python /opt/veritas/bot.py
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

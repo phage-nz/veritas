@@ -1,0 +1,243 @@
+# SourceBot configuration
+
+# Bot token from the Discord developer portal
+token: "YOUR BOT TOKEN"
+
+# OAuth2 join URL from the Discord developer portal
+oauth2_url: "YOUR OAUTH2 URL"
+
+# IDs of channels to monitor (right-click a channel → Copy Channel ID)
+channels:
+  - 12345678901234567890
+
+# ---
+
+blocklist:
+  # Any URL whose domain matches will have the message deleted and the author DMed.
+  domains:
+    - bit.ly/
+    - community.defconwarningsystem.com/
+    - ddosecrets.com/
+    - info.publicintelligence.net/
+    - linkd.in
+    - linkedin.com/
+    - minepi.com/
+    - publicintelligence.net/
+    - shorturl.at/
+    - tinyurl.com/
+
+  # twitter.com or x.com accounts (case-insensitive, handle only — no @ prefix)
+  twitter:
+    - AlertChannel
+    - AnonOpsSE
+    - ArmchairW
+    - bababanaras
+    - BabakTaghvaee
+    - Bilesa_Shaweys
+    - BNN*
+    - BNNBreaking
+    - BNNWorld
+    - boldon761
+    - CanadianUkrain1
+    - caucasuswar
+    - CBKNEWS121
+    - chuckpfarrer
+    - DEFCONWSALERTS
+    - disclosetv
+    - EndGameWW3
+    - gonzalolira1968
+    - GreatGameIndia
+    - ignis_fatum
+    - igorsushko
+    - inteldotwav
+    - IntellNEWS2
+    - Intel_Sky
+    - jenniferatntd
+    - jenniferzeng97
+    - L0gg0l
+    - leadingreport
+    - lilygrutcher
+    - logka11
+    - Maks_NAFO_FELLA
+    - medriva*
+    - meintelslava
+    - middleeasttime
+    - mtracey
+    - MyLordBebo
+    - OSINTAI
+    - OSINTAI
+    - osinttechnical
+    - OsintTv
+    - OsintUpdates
+    - rrichcord
+    - RSFSudann
+    - sentdefender
+    - Sprinter99800
+    - terror_alarm
+    - ukraine66251776
+    - UKR_Report
+    - up_millers
+    - Visegrad24
+    - walter_report
+    - warmonitors
+    - YourAnonTV
+    - zerohedge
+    - Iyervval
+
+  # t.me or telegram.me accounts (case-insensitive, handle only)
+  telegram:
+    - IntelSlava
+    - MediterraneanMan
+# ---
+
+warnlist:
+  # Any URL whose domain matches will receive a public quote-reply warning.
+  domains:
+    - breitbart.com/
+    - jacobinmag.com/
+    - multipolarista.com/
+    - nordicmonitor.com/
+    - opindia.com/
+    - syriahr.com/
+    - thegrayzone.com/
+
+  twitter:
+    - 301arm
+    - 301_AD
+    - 4FreedominIran
+    - aaronjmate
+    - AceJaceu
+    - adityarajkaul
+    - AIBoardPSF
+    - ajaishukla
+    - andybxxx
+    - andy_scollick
+    - annage_
+    - armchairw
+    - asbmilitari
+    - ASBMilitary
+    - AZgeopolitics
+    - BenjaminNorton
+    - BhittaniKhannnn
+    - BNN
+    - Breaking911
+    - BreakingNLive_
+    - BreitbartLondon
+    - BreitbartNews
+    - CanadianUkrain1
+    - CGTNOfficial
+    - chuckpfarrer
+    - clashreport
+    - DailyCaller
+    - defconwsalerts
+    - DeItaone
+    - derbychrisw
+    - drapr007
+    - euromaidanpr
+    - faytuks
+    - FirstSquawk
+    - ForumStrategic
+    - FrontalForce
+    - Fxhedgers
+    - gammonbadge
+    - Gauthier_Pasq
+    - gdarkconrad
+    - globaltimesnews
+    - gloooud
+    - HeshmatAlavi
+    - IndoPac_Info
+    - IranNewsUpdate1
+    - iran_policy
+    - iraqi_day
+    - JackPosobiec
+    - jacobin
+    - Jana_Shah
+    - jingjing_li
+    - johnnyjmils
+    - kavkazcenter15
+    - KazmiWajahat
+    - LebUpdate
+    - lobsterlarryliu
+    - LocalFocus1
+    - manilachan
+    - Maryam_Rajavi
+    - Maryam_Rajavi_P
+    - MaxBlumenthal
+    - mdfzeh
+    - medriva
+    - MeghBulletin
+    - MeghUpdates
+    - MEK_Iran
+    - Mojahedineng
+    - MrAndyNgo
+    - Natsecjeff
+    - newkc14
+    - NewsForAll
+    - NewsForAllUK
+    - nexta_tv
+    - nlwartracker
+    - noelreports
+    - nordicmonitor
+    - north_star88
+    - nypost
+    - OpIndia_com
+    - OSINTtechnical
+    - OsintUpdates
+    - OSINT_Insider
+    - patrickpoint007
+    - pelmenipusha
+    - peymaneh123
+    - PMOIRAN
+    - PoliticsForAlI
+    - PravinSawhney
+    - PSFAERO
+    - QudsNen
+    - ray_net_ua
+    - RepJackKimble
+    - RS0TM
+    - schaheid
+    - scs_pi
+    - ShehabAgency
+    - spectatorindex
+    - SputnikInt
+    - squatsons
+    - stranahan
+    - syriahr
+    - TheGrayzoneNews
+    - TheInsiderPaper
+    - TheLegateIN
+    - TheMeghdoot
+    - theserenadong
+    - thesiriusreport
+    - TheWolfpackIN
+    - The_Real_Fly
+    - tparsi
+    - tpyxanews
+    - trenttelenko
+    - UkraineRussia2
+    - ukraine_map
+    - vijaita
+    - warfrontline
+    - warmonitor3
+    - warmonitors
+    - worldonalert
+    - wyattreed13
+    - ZaidZamanHamid
+    - zhang_heqing
+    - zichenwanghere
+
+  telegram:
+    - abualiexpress
+    - abusalehg
+    - AbuSaleh_israel_reports
+    - asbmil
+    - boris_rozhin
+    - englishabuali
+    - grey_zone
+    - maymun5
+    - nexta_tv
+    - rybar
+    - s/swodki
+    - sabreenS1
+    - swodki
+    - Tweet92
