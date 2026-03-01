@@ -127,3 +127,13 @@ Logs are written to stdout and captured by journald:
 ```bash
 journalctl -u veritas -f
 ```
+
+## Examples
+
+Flagged message, with reply and reaction:
+
+![Flagged Message](img/flagged_msg.png)
+
+Removed message, with notification sent via DM:
+
+![Removed Message](img/removed_msg.png)
